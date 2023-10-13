@@ -1,0 +1,4 @@
+enum TransactionType{
+  payment, 
+  topup
+}

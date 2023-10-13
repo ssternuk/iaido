@@ -1,0 +1,33 @@
+name: iaido
+description: A flutter project for the iaido project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  path: ^1.8.3
+  intl: ^0.18.1
+  firebase_core: ^2.17.0
+  firebase_storage: ^11.2.8
+  cloud_firestore: ^4.9.3
+  uuid: ^4.1.0
+  shared_preferences: ^2.2.1
+  enum_to_string: ^2.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets: 
+    - lib/ui/assets/
